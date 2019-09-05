@@ -14,6 +14,13 @@ Will install dependencies
 
 #### `npm start`
 
+Before you run you have to set your `CLIENT_ID` and `CLIENT_SECRET` from github in your process environment.
+
+For more information on how to acquire this clientId and secret:
+[https://auth0.com/docs/connections/social/github](https://auth0.com/docs/connections/social/github)
+
+These variables are required to do more requests to the github api in development mode.
+
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
